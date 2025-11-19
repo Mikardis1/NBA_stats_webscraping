@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Logs & outputs ---
+*.log
+*.csv
+*.json
+*.xlsx
+
+# Ignore data files created by the scraper
+nba.csv
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# --- Selenium / Chrome ---
+# Chrome driver logs
+chromedriver.log
+chromedriver.exe
+geckodriver.log
+
+# PyCharm
+.idea/
+
+# Local testing files
+test/
